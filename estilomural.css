@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Rubik+Wet+Paint&display=swap');
+
+body{
+    margin:0;
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-color:#131313;
+}
+
+.bg1{ background-image:url("img/el fondo.png"); }
+.bg2{ background-image:url("img/el fondo 2.png"); }
+.bg3{ background-image:url("img/el fondo 3.png"); }
+.bg4{ background-image:url("img/click1.png"); }
+
+.mural{
+    position:relative;
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+}
+
+.pieza{
+    position:absolute;
+    transition:0.3s ease;
+}
+
+.pieza:hover{
+    transform:scale(1.5) rotate(0deg);
+    z-index:999;
+}
+
+/* hover distinto SOLO para inicio */
+.a1:hover,
+.a2:hover,
+.a3:hover{
+    transform:scale(1.1) rotate(0deg);
+    filter:brightness(1.5);
+    z-index:999;
+}
+
+
+/* imagenes del mural compacto dentro de pantalla */
+
+.p1{ top:2%; left:6%; width:11vw; transform:rotate(-12deg); }
+.p2{ top:6%; left:26%; width:22vw; transform:rotate(7deg); }
+.p3{ top:4%; right:20%; width:18vw; transform:rotate(-6deg); }
+
+.p4{ top:20%; left:8%; width:18vw; transform:rotate(11deg); }
+.p5{ top:10%; left:52%; width:10vw; transform:rotate(-14deg); }
+.p6{ top:32%; right:43%; width:15vw; transform:rotate(5deg); }
+
+.p7{ top:56%; left:46%; width:22vw; transform:rotate(-8deg); }
+.p8{ top:5%; right:5%; width:14vw; transform:rotate(9deg); }
+.p9{ top:58%; left:8%; width:28vw; transform:rotate(-4deg); }
+.p10{ top:65%; right:15%; width:14vw; transform:rotate(9deg); }
+.p11{ top:58%; left:78%; width:28vw; transform:rotate(-4deg); }
+
+
+/*imagenes de inicio*/ 
+
+.a1{ top:40%; left:6%; width:33vw; transform:rotate(-12deg); }
+.a2{ top:6%; left:36%; width:33vw; transform:rotate(7deg); }
+.a3{ top:40%; right:4%; width:33vw; transform:rotate(-6deg); }
+
+/*icon de back*/
+.a4{ top:80%; left:45%; width:11vw; transform:rotate(-8deg); }
+
+
+/* imagenes de musica*/
+.b1{ top:15%; left:6%; width:22vw; transform:rotate(-6deg); }
+.b2{ top:5%; left:36%; width:22vw; transform:rotate(7deg); }
+.b3{ top:20%; right:4%; width:22vw; transform:rotate(15deg); }
+.b4{ top:50%; right:60%; width:22vw; transform:rotate(-10deg); }
+.b5{ top:50%; right:20%; width:22vw; transform:rotate(-8deg); }
+
+
+/*TEXTOSSSSSS*/
+
+.txt{
+    position:absolute;
+    transition:0.3s ease;
+    color:yellow;
+    font-size:1.3vw;
+    font-family:"Rubik Wet Paint",system-ui;
+    margin:0;
+    user-select:none;
+    text-shadow:2px 2px 6px rgba(0,0,0,.7);
+}
+
+.txt2{
+    position:absolute;
+    color:yellow;
+    font-family:"Bitcount Grid Double", monospace;
+    font-size:15vw;
+    text-shadow:2px 2px 6px rgb(0, 0, 0);
+}
+
+.txt:hover{
+    transform:scale(1.4) rotate(0deg);
+    z-index:999;
+}
+
+
+/*TEXTOS DE MUSICA*/
+.t1{ top:18%; left:50%; transform:rotate(-8deg); }
+.t2{ top:80%; right:20%; transform:rotate(6deg); }
+.t3{ top:85%; left:10%; transform:rotate(-12deg); }
+.t4{ top:30%; left:72%; transform:rotate(4deg); }
+.t6{ top:10%; left:10%; transform:rotate(4deg); }
+
+/*TEXTO INICIO*/
+.t5 { top:60%; left:30%; transform:rotate(4deg); }
